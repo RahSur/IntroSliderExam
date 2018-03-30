@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7c82c"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/outlamp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Outlamp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Normal Mode "
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="          This mode allows you to control all your devices which are connected globally and your ca monitor the usage through the home display."
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ECO Mode "
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="               In this eco-mode the outside light is switched on and off with the help of a light dependent sensor where it goes to OFF state when light is detected else to ON state if no light is detected."
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>
